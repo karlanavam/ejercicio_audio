@@ -1,0 +1,30 @@
+body{
+	background-color: #4A235A;
+}
+
+h1 {
+	color: #48C9B0;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+section{
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	background-color: #FADBD8;
+	border: none;
+    color: #A93226;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+form{
+	text-align: center;
+	align-items: center;
+}

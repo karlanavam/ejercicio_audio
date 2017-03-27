@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reproductor Audio</title>
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Reproductor de Audio</h1>
+
+	<br>
+	<audio src="./assets/Kavinsky-Nightcall.mp3" id="rolon"></audio>
+
+	<section id="tiempoCancion">
+ 		<input type="range" min="0" max="255" step="0.1" value="0" id="rango" />
+	</section>
+	<br>
+	<section>
+		<button type="button" onclick="playAudio()">▶</button>
+		<button type="button" onclick="pauseAudio()">▪▪</button>
+		<button type="button" onclick="reiniciar();">■</button>
+		<button type="button" onclick="subirVol();">🔼</button>
+		<button type="button" onclick="bajarVol();">🔽</button>
+		<button type="button" onclick="atrasar();">⏮</button>
+		<button type="button" onclick="adelantar();">⏭</button>
+	</section>
+
+	<script type="text/javascript" src="./assets/javascript/main.js"></script>
+</body>
+</html>
